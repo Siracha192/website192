@@ -15,7 +15,10 @@ nav a {
     margin: 0 10px;
 }
 main {
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 h2 {
     color: #333;
@@ -25,4 +28,10 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
+}
+img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
 }
