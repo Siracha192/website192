@@ -26,3 +26,20 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 20px; 
+}
+.grid-item {
+    background-color: #CfE0EB;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+}
