@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
        <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
        <title>Siracha</title>
        <link rel="stylesheet" href="./CSS/Game.css">
     </head>
@@ -16,9 +17,21 @@
         </nav>
         <main>
             <h2>Snake Game</h2>
-            <p>Snake '97 เกมงูกินหางในตำนาน</p>
+            <p>ห้ามชนตัวเอง ห้ามชนขอบจอ</p>
         </main>
-        <canvas width="400" height="400" id="game"></canvas>
+        <div class="wrapper">
+            <div class="game-details">
+              <span class="score">Score: 0</span>
+              <span class="high-score">High Score: 0</span>
+            </div>
+            <div class="play-board"></div>
+            <div class="controls">
+              <i data-key="ArrowLeft" class="fa-solid fa-arrow-left-long"></i>
+              <i data-key="ArrowUp" class="fa-solid fa-arrow-up-long"></i>
+              <i data-key="ArrowRight" class="fa-solid fa-arrow-right-long"></i>
+              <i data-key="ArrowDown" class="fa-solid fa-arrow-down-long"></i>
+            </div>
+          </div>
         <script src="./script/Game.js"></script>
         <footer>
             <h1>Contact</h1>
